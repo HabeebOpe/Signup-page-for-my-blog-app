@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+
+* {
+  padding: 0;
+  outline: none;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.signup-body-section {
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-header{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10px 5px;
+}
+
+.signup-header div{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.signup-header div img{
+  width: 100%;
+  height: 100%;
+}
+
+.signup-body-section-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-pg-intro {
+  padding-bottom: 10%;
+}
+
+.signup-pg-intro h1 {
+  text-align: center;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.signup-pg-intro p {
+  font-size: 17px;
+  text-align: center;
+}
+
+.signup-body-section-div button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 23px;
+  background-color: #DBDBDB;
+  margin: 15px 0;
+}
+
+.signup-body-section-div button:hover{
+  border-radius: 3px solid #1E8B00;
+}
+
+.signup-body-section-div button img {
+  width: 40px;
+}
+
+.signup-body-section-div button span {
+  font-size: 23px;
+}
+
+.signup-body-section-div .signup-pg-agree-txt {
+  width: 100%;
+  font-size: 17px;
+  padding: 15px 0;
+}
+
